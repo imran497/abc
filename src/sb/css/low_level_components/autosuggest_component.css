@@ -1,0 +1,31 @@
+#autosuggest-container{
+  position: absolute;
+  width: 100%;
+  border-radius: 20px;
+  top: calc(100% + 2px);
+  background: white;
+  z-index: 1000;
+  box-shadow: 0px 0px 3px black;
+}
+
+#autosuggest-container ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+#autosuggest-container li {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+#autosuggest-container li.active{
+  cursor: pointer;
+  background: lightgrey;
+  border-radius: 35px;
+}
+
+#autosuggest-container:focus{
+  box-shadow: none;
+}
