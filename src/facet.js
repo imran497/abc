@@ -160,5 +160,5 @@ window.facets = {
     "defaultType": "AND",
     "apikey": "",
     "autologout": true,
-    "pluginDomain": "https://69.55.49.120:8443"
+    "pluginDomain": "https://13.232.192.250:8443"
 };
