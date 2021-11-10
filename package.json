@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "babel-node tools/devServer.js",
-    "lint": "node_modules/.bin/esw webpack.config.* src",
+    "lint": "node_modules/.bin/esw webpack.config.* ./src",
     "lint:watch": "npm run lint -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel-node tools/build.js",
